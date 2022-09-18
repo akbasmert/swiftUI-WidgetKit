@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WidgetKit
 
 struct ContentView: View {
     @AppStorage("ankara", store: UserDefaults(suiteName: "group.mert.swiftUI-widgetKit"))
@@ -27,6 +28,8 @@ struct ContentView: View {
         if let ankaraData = try? JSONEncoder().encode(ankara){
             self.ankaraData = ankaraData
             print(ankara.isim)
+            WidgetCenter.shared.reloadTimelines(ofKind: "widgetSehirler")
+            
         }
     }
 }
