@@ -25,6 +25,7 @@
 		41D2092A28D7480A004DA7A0 /* Sehirler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sehirler.swift; sourceTree = "<group>"; };
 		41D2092F28D749EE004DA7A0 /* OzleGorselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OzleGorselView.swift; sourceTree = "<group>"; };
 		41D2093128D74C2B004DA7A0 /* AnkaraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnkaraView.swift; sourceTree = "<group>"; };
+		41D2093328D754BA004DA7A0 /* swiftUI-widgetKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "swiftUI-widgetKit.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		41D2091B28D7475F004DA7A0 /* swiftUI-widgetKit */ = {
 			isa = PBXGroup;
 			children = (
+				41D2093328D754BA004DA7A0 /* swiftUI-widgetKit.entitlements */,
 				41D2092E28D74993004DA7A0 /* App */,
 				41D2092D28D74989004DA7A0 /* Model */,
 				41D2092C28D74973004DA7A0 /* View */,
@@ -300,9 +302,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "swiftUI-widgetKit/swiftUI-widgetKit.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftUI-widgetKit/Preview Content\"";
+				DEVELOPMENT_TEAM = 3WSZHMJKZ9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -328,9 +332,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "swiftUI-widgetKit/swiftUI-widgetKit.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftUI-widgetKit/Preview Content\"";
+				DEVELOPMENT_TEAM = 3WSZHMJKZ9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
